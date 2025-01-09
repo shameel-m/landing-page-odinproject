@@ -1,5 +1,26 @@
-img{
-    max-width: 10px;
-    height: auto;
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 48px;
+    min-height: 100vh;
+}
 
+
+.header, .main-content, .secondary-content, .quotes, .sign-up, .footer{
+    padding: 48px;
+    display: flex;
+}
+.logo{
+    height: 72px;
+    display: flex;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer{
+    padding: 48px;
+    background-color: black;
+    color: white;
 }
